@@ -4,7 +4,7 @@ body {
 }
 
 h1, h2, h3, h4 {
-	font-family: 'Abel', sans-serif; 
+	font-family: sans-serif; 
 }
 
 b, strong {
@@ -159,6 +159,90 @@ hr {
 
 .margin-tp {
 	margin-top: 30px;
+}
+
+.glyphicon-circle-arrow-up { 
+	font-size: 32px;
+}
+
+.btn {
+	box-shadow: 0 2px 2px #999;
+}
+
+.btn-circle.btn-lg {
+	width: 50px;
+	height: 50px;
+	padding: 8px 16px;
+	font-size: 24px;
+	line-height: 1.33;
+	border-radius: 25px;
+	-moz-border-radius:25px;
+    -webkit-border-radius:25px;
+}
+
+
+.smGlobalBtn{ /* global button class */
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    box-shadow: 0 2px 2px #999;
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 2em;
+    border-radius: 25px;
+    -moz-border-radius:25px;
+    -webkit-border-radius:25px;
+}
+
+/* facebook button class*/
+.btn-facebook{
+    background: #4060A5;
+}
+
+.btn-facebook:before{ /* use :before to add the relevant icons */
+    font-family: "FontAwesome";
+    content: "\f09a"; /* add facebook icon */
+}
+
+.btn-facebook:hover{
+    color: #4060A5;
+    background: #fff;
+}
+
+/* twitter button class*/
+.btn-twitter{
+    background: #00ABE3;
+}
+
+.btn-twitter:before{
+      font-family: "FontAwesome";
+      content: "\f099"; /* add twitter icon */
+}
+
+.btn-twitter:hover{
+      color: #00ABE3;
+      background: #fff;
+}
+
+/* google plus button class*/
+.btn-googleplus{
+    background: #e64522;
+}
+
+.btn-googleplus:before{
+      font-family: "FontAwesome";
+      content: "\f0d5"; /* add googleplus icon */
+}
+
+.btn-googleplus:hover{
+      color: #e64522;
+      background: #fff;
 }
 
 @media(min-width: 768px) {
