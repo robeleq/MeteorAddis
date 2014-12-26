@@ -149,8 +149,15 @@ hr {
 	padding: 0 0;
 }
 
+.breadcrumb {
+	margin-top: 40px;
+}
+
 @media(min-width: 768px) {
 	.carousel-caption > .item {
 		height: 600px;
+	}
+	.breadcrumb {
+		margin-top: 20px;
 	}
 }
