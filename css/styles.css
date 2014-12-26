@@ -1,6 +1,6 @@
 
 body {
-	padding-top: 60px;
+	padding-top: 50px;
 }
 
 h1, h2, h3, h4 {
@@ -17,11 +17,11 @@ hr {
 
 .container .navbar-brand {
 	float: left;
-    font-size: 20px;
-    height: 60px;
-    line-height: 22px;
-    padding-bottom: 20px;
-    padding-top: 20px; 	
+    font-size: 14px;
+    height: 50px;
+    line-height: 18px;
+    padding-bottom: 18px;
+    padding-top: 18px; 	
 }
 
 .navbar .navbar-brand img {
@@ -31,16 +31,16 @@ hr {
 }
 
 .navbar-nav > li > a {
-    font-size: 16px;
+    font-size: 14px;
     letter-spacing: 1px;
     text-transform: uppercase;
-    padding-bottom: 20px;
-    padding-top: 20px;
+    padding-bottom: 18px;
+    padding-top: 18px;
 }
 
 .container .navbar-toggle {
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin-bottom: 18px;
+    margin-top: 18px;
 }
 
 .carousel-caption {
@@ -113,6 +113,41 @@ hr {
 	padding: 0 10px;
 }
 
+.event-attend {
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 10px;
+	padding: 10px 0;
+}
+
+.event-attend a {
+	width: 100%
+}
+
+.event-attendees {
+	border-bottom: 1px dashed #ccc;
+	margin-bottom: 10px;
+}
+
+.event-attendee-image {
+	padding-bottom: 10px;
+}
+
+.event-attendee-name {
+	padding-top: 20px;
+}
+
+.events-description {
+	padding: 0 10px;
+	margin: 30px 0;
+}
+
+.events {
+	margin-bottom: 30px;
+}
+
+.panel-body {
+	padding: 0 0;
+}
 
 @media(min-width: 768px) {
 	.carousel-caption > .item {
