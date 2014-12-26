@@ -180,8 +180,8 @@ hr {
     -webkit-border-radius:25px;
 }
 
-
-.smGlobalBtn{ /* global button class */
+/* global button class */
+.smGlobalBtn{
     display: inline-block;
     position: relative;
     cursor: pointer;
