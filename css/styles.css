@@ -92,6 +92,20 @@ hr {
 	padding: 50px 15px;
 }
 
+.join-us-btn {
+	box-shadow: none;
+	margin-top: 2px;
+    text-transform: uppercase;
+	width: 200px;
+	background-color: transparent;
+	color: #000;
+    border-color: #D14512;
+}
+
+.join-us-btn:hover {
+	background-color: #0D2C04;
+}
+
 .bmargin {
 	margin-bottom: 16px;
 }
