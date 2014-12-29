@@ -15,6 +15,10 @@ hr {
 	border-top: 1px solid #c9c9c9
 }
 
+.btn {
+	box-shadow: 0 2px 2px #999;
+}
+
 .container .navbar-brand {
 	float: left;
     font-size: 14px;
@@ -41,6 +45,19 @@ hr {
 .container .navbar-toggle {
     margin-bottom: 18px;
     margin-top: 18px;
+}
+
+.login-btn {
+	box-shadow: none;
+	margin-top: 10px;
+    text-transform: uppercase;
+    background-color: #2C0E04;
+    border-color: #D14512;
+    width: 100px;
+}
+
+.login-btn:hover {
+	background-color: #0D2C04;
 }
 
 .carousel-caption {
@@ -163,10 +180,6 @@ hr {
 
 .glyphicon-circle-arrow-up { 
 	font-size: 32px;
-}
-
-.btn {
-	box-shadow: 0 2px 2px #999;
 }
 
 .btn-circle.btn-lg {
