@@ -258,6 +258,12 @@ hr {
       background: #fff;
 }
 
+.what-we-do {
+	background-color: #fafafa;
+}
+
+
+
 @media(min-width: 768px) {
 	.carousel-caption > .item {
 		height: 600px;
